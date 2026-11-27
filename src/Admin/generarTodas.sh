@@ -10,7 +10,7 @@ cd "$(dirname "$0")" || exit
 > generarTodas.sql
 
 # Lista ordenada de entidades
-entidades=(Articulo Proveedor Hotel Cliente Empleado Producir Suministrar Reservar Trabajar)
+entidades=(Articulo Proveedor Empleado Hotel Cliente Producir Suministrar Reservar Trabajar)
 
 # Concatenamos cada archivo añadiendo un salto de línea al final
 for entidad in "${entidades[@]}"; do
