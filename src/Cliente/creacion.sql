@@ -9,5 +9,3 @@ CREATE TABLE CLIENTE(
     CONSTRAINT ck_telefono_cliente CHECK (telefono BETWEEN 1000000 AND 999999999999999)
 
 );
-
-drop table Cliente;
