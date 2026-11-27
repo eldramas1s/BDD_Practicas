@@ -1,5 +1,3 @@
-select * from user_tables;
-
 CREATE TABLE HOTEL (
     id_hotel        NUMBER,
     nombre          VARCHAR2(100) CONSTRAINT nn_hotel_nombre NOT NULL,
